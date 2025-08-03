@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.signup-form {
+  background-color: #111; /* Darker black */
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup-field {
+  padding: 10px;
+  padding-left: 38px;
+  border: none;
+  outline: none;
+    height: 24px;
+  background-color: #222;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-btn {
+  padding: 10px;
+  border: none;
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #ff8c00ee ;
+}
+
+.signup-btn:disabled {
+  cursor: not-allowed;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.or-separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #aaa; /* gray-ish text */
+}
+
+.or-separator hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: #444; /* dark line for dark background */
+}
+
+.or-separator span {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #aaa;
+}
+.turnstile
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.google-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 65px;
+}
+.icons
+{
+    position: relative;
+    color: rgba(255, 255, 255, 0.382);
+    top : 30px;
+    left: 12px;
+}
+.hint
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:gray;
+    font-size: 13px;
+}
+.signin-text:hover
+{
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
