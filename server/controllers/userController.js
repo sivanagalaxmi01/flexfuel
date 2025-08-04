@@ -13,7 +13,7 @@ export const createUser = async (req, res) => {
     const newUser = new Signup({
       email,
       username,
-      clerkUserId
+      clerkId
     });
 
     await newUser.save();
